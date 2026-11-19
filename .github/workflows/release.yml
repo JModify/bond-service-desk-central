@@ -33,4 +33,4 @@ jobs:
             exit 0
           fi
           gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
-            --title "ServiceDesk Central $tag" --notes ''
+            --title "Service Desk Central $tag" --notes ''
