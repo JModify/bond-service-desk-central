@@ -186,11 +186,6 @@ a {
   box-shadow: 0 2px 4px rgb(21 54 87 / 4%);
 }
 
-.tool-card-planned {
-  background: #eef3f8;
-  box-shadow: none;
-}
-
 .tool-icon {
   display: grid;
   width: 2.75rem;
@@ -200,11 +195,6 @@ a {
   border-radius: 0.65rem;
   background: #dbeeff;
   color: #1c568f;
-}
-
-.tool-card-planned .tool-icon {
-  background: #e1e9f1;
-  color: #485c70;
 }
 
 .tool-icon svg {
@@ -269,7 +259,11 @@ a.tool-action:hover {
   font-size: 0.875rem;
 }
 
-.site-footer span:last-child {
+.footer-credit {
+  display: grid;
+}
+
+.site-footer > span {
   flex: none;
   font-variant-numeric: tabular-nums;
 }
