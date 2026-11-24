@@ -259,11 +259,7 @@ a.tool-action:hover {
   font-size: 0.875rem;
 }
 
-.footer-credit {
-  display: grid;
-}
-
-.site-footer > span {
+.site-footer > span:last-child {
   flex: none;
   font-variant-numeric: tabular-nums;
 }
